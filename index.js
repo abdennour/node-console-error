@@ -8,8 +8,8 @@ const data = {
  reset: "\x1b[0m",
  reverse: "\x1b[7m"
 };
-
+console.old_error = console.error;
 console.error = function() {
- console.log(data.redBg + data.whiteFg, data.icon, data.reset, data.redFg, ...arguments, data.reset);
+ console.old_error(data.redBg + data.whiteFg, data.icon, data.reset, data.redFg, ...arguments, data.reset);
 };
 module.exports = console.error ;
