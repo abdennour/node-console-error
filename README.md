@@ -1,6 +1,6 @@
 # console.error :
 
- ![console-error demo](https://raw.githubusercontent.com/abdennour/spl/master/js/console-error-node.png)
+ ![console-error demo](https://raw.githubusercontent.com/rathath/bucket/master/img/console-error-node.png)
 
 - The purpose of this module is not to give many options for logging , it is just give you lightweight the missing API of console : which is here `console.error`.
 
